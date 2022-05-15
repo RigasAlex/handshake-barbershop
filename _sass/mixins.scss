@@ -1,0 +1,24 @@
+$light-color: #af8c45;
+// $secondary-color: #142135;
+
+$black: #000000;
+$white: #ffffff;
+
+$first-font: 'Poppins';
+$second-font: 'Poppins';
+
+@mixin phone {
+    @media (max-width: 599px) { @content; }
+}
+@mixin tablet-portrait {
+    @media (max-width: 600px) { @content; }
+}
+@mixin tablet-landscape {
+    @media (max-width: 969px) { @content; }
+}
+@mixin desktop {
+    @media (max-width: 1200px) { @content; }
+}
+@mixin big-desktop {
+    @media (max-width: 1800px) { @content; }
+}

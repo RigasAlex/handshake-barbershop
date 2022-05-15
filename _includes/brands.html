@@ -1,0 +1,11 @@
+<div class="brands">
+    {% for brand in site.brands %}
+        <div>
+            <img
+                class="brand"
+                src="{{ brand.img }}"
+                alt="brand {{ brand.name }}"
+            />
+        </div>
+    {% endfor %}
+</div>

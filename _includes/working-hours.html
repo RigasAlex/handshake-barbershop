@@ -1,0 +1,17 @@
+<div
+    class="parallax first-image"
+    style="background-image:
+      radial-gradient(circle, rgba(0,0,0,0.8) 20%, rgba(0,0,0,0.2) 100%),
+      url( {{ site.working_hours.img }} );"
+>
+    <div class="caption">
+        <h1>Working Hours</h1>
+        <h2>
+            {{ site.working_hours.day }} 
+            {% for hour in site.working_hours.hours %}
+            <br />
+            {{ hour }}
+            {% endfor %}
+        </h2>
+    </div>
+</div>

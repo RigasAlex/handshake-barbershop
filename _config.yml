@@ -1,0 +1,60 @@
+baseurl: "" # the subpath of your site, e.g. /blog
+
+# --- Base --- #
+title: Handshake Brbershop # the name of your site, e.g. ACME Corp.
+tagline: Barbershop at Prinos Thassos
+description: Handshake Barbershop located at Prinos of Thassos. We are open since 2020 and we offer old school but modern haircuts.
+url: "https://handshakebshop.netlify.app"
+author: Alex Rigas
+
+# --- Header Nav-Bar --- #
+navbar:
+  - title: "Home"
+    url: "#"
+  - title: "About"
+    url: "#"
+  - title: "Pricing"
+    url: "#"
+  - title: "Gallery"
+    url: "#"
+  - title: "Contact"
+    url: "#"
+
+# --- Logo --- #
+avatar: "/assets/img/logo/avatar-handshake-white.png"
+fabicon: "/assets/img/logo/avatar-handshake-black.png
+"
+
+logo: "/assets/img/logo/logo.png"
+logo_128x: "/assets/img/logo/logo_128x.png"
+
+# --- Footer  --- #
+
+# --- info --- #
+facebook: https://www.facebook.com/profile.php?id=100028473175442
+messenger: https://m.me/100013182044437
+instagram: https://www.instagram.com/handshake_barbershop/
+phone: "6984328661"
+email: handshakebshopths@gmail.com
+address_link: https://www.google.com/maps/place/Handshake+Barbershop/@40.7415667,24.5767752,21z/data=!4m12!1m6!3m5!1s0x0:0x7b432e8933008008!2sHandshake+Barbershop!8m2!3d40.7415961!4d24.5767899!3m4!1s0x0:0x7b432e8933008008!8m2!3d40.7415961!4d24.5767899
+address: Prinos, Thassos - 64010
+working_hours:
+  days:  Tuesday - Saturday 
+  hours:
+    - 09:00 - 15:00
+    - 17:00 - 21:00
+  img: assets/img/slider-home/inside_store.jpg
+
+brands:
+  - name: Reuzel
+    img: assets/img/brands/reuzel.png
+  - name: bluebeards revenge
+    img: assets/img/brands/bluebeards.png
+  - name: uppercut
+    img: assets/img/brands/uppercut.png
+  - name: proraso
+    img: assets/img/brands/proraso.png
+
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap

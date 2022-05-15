@@ -1,0 +1,31 @@
+@import "mixins";
+
+.brands {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    vertical-align: center;
+    & > * {
+        margin: 2em auto;
+        display: grid;
+        place-items: center;
+    }
+}
+
+.brand {
+    width: 128px;
+    margin: 2em auto;
+}
+
+@include tablet-landscape {
+    .brands > * {
+        flex:0 0 50%;
+    }
+}
+
+@include phone {
+    .brands > * {
+        flex:0 0 100%;
+    }
+}

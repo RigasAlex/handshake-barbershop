@@ -1,0 +1,160 @@
+@import "mixins";
+
+/*
+    Needs Refactoring
+*/
+
+#primary-header .fa {
+    display:inline-block;
+    color: $white;   
+    text-align: center;
+    font-size: 2em;
+}
+
+#primary-header .nav a:hover::after{
+    transform: scaleX(1)
+}
+
+#primary-header .nav a:hover {
+    text-decoration: none;
+    color: $light-color;
+}
+
+#primary-header .nav a::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 2px;
+    margin: 0 1em 0 1em;
+    transform: scaleX(0);
+    background: $light-color;
+    transition: 0.7s transform cubic-bezier(0.06, 0.9, 0.28, 1);
+}
+
+#primary-header.header-scroled img {
+    max-width: 85px;
+}
+
+#primary-header.header-scroled {
+    background: $black;
+}
+
+#primary-header.header-scroled .nav {
+    margin-bottom: 1.5em!important;
+    margin-top: 1.5em!important;
+}
+
+#primary-header { 
+    z-index: 1000;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%; 
+    font-weight: 600;
+    transition: all 400ms linear;
+}
+
+#primary-header .nav a {
+    text-decoration: none;
+    color: $white;
+}
+
+#primary-header .nav {
+    float: right;
+    max-width: 800px;
+    margin: auto;
+    margin-top: 2.4em;
+    margin-bottom: 2.4em;
+    margin-right: 5em;
+    text-align: center;
+    transition: 1.3s;
+}
+
+#primary-header .nav a { 
+    text-align: center;
+    padding: 1em;
+    padding-bottom: 0.61em;
+    position: relative;
+}
+
+#primary-header img {
+    position: absolute;
+    max-width: 100px;
+    margin-left: 3em;
+    top: 50%;
+    transform: translate(0, -50%);
+    transition: all 400ms linear;
+}
+
+#primary-header .nav-toggle {
+    display: none;
+}
+
+@media screen and (max-width: 680px) {
+    #primary-header .nav-toggle {
+        display: block!important;
+    }
+}
+
+@media screen and (max-width: 980px) {
+    #primary-header .nav.show {
+        display: block;
+    }
+
+    #primary-header {
+        background: $black;
+    }
+
+    #primary-header .nav-toggle {
+        display: block;
+        float: right;
+        margin-right: 2em;
+        margin-top: 0.4em;
+        margin-bottom: 0.4em;
+        border-radius: 4px;
+        padding: 0.2em 0 0.2em 0;
+    }
+
+    #primary-header .nav-toggle:hover {
+        cursor: pointer;
+    }
+
+    #primary-header .nav {
+        float: none;
+        max-width: 800px;
+        margin: 0;
+        text-align: center;
+        transition: 1.3s;
+        position: absolute;
+        right: 0;
+        left: 0;
+        margin-top: 3em;
+        margin-left: 6em;
+        margin-right: 6em;
+        border-top: 3px solid $white;
+        display: none;
+    }
+
+    #primary-header.header-scroled .nav {
+        margin-top: 3em!important;
+    }
+
+    #primary-header .nav a {
+        background-color: $black;
+        display: block;
+        padding: 12px;
+        text-decoration: none;
+    }
+
+    #primary-header .nav a::after {
+        opacity: 0;
+    }
+
+
+    #primary-header img {
+        display: none;
+        max-width: 80px;
+    }
+}

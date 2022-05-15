@@ -1,0 +1,70 @@
+@import "mixins";
+
+body {
+    font-family: $first-font;
+    margin: 0;
+}
+
+html,
+body,
+div,
+span,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+a {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    text-decoration: none;
+    vertical-align: baseline;
+}
+
+section {
+    padding: 2em 0;
+    &.section--2x {
+        padding: 4em 0;
+    }
+}
+
+h1 {
+    // font-family: cambria;
+    font-size: clamp(1.75rem, 4.51vw, 3.25rem);
+    font-weight: 300;
+}
+
+h2 {
+    font-size: clamp(1.2rem, 1.5vw, 2rem);
+}
+
+// h3 {
+//     font-size: calc(1rem + 1vw);
+// }
+
+p {
+    font-size: 1rem;
+}
+
+.accent {
+    color: $light-color;
+}
+
+.inv {
+    color: $white;
+}
+
+.container {
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.column {
+    flex: 1;
+    position: relative;
+}

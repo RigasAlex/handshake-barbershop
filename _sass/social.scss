@@ -1,0 +1,45 @@
+.social {
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    vertical-align: center;
+
+    p::before,
+    p::after {
+        content: "";
+        display: inline-block;
+        width: 20px;
+        height: 1px;
+        border-bottom: 1px solid #000000;
+        margin: 0 14px 4px;
+    }
+}
+
+.social-links {
+    display: flex;
+}
+
+.social-links a {
+    width: 5em;
+    height: 5em;
+    text-align: center;
+    text-decoration: none;
+    color: rgb(138, 138, 138);
+    margin: 0 30px;
+    border-radius: 50%;
+    position: relative;
+    overflow: hidden;
+    transition: transform 0.5s;
+}
+
+.social-links a .fab {
+    font-size: 30px;
+    line-height: 80px;
+    position: relative;
+    z-index: 10;
+    transition: color 0.5s;
+}
+
+.social-links a:hover .fab {
+    color: #000;
+}

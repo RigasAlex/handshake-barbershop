@@ -1,0 +1,11 @@
+<header id="primary-header" class="">
+        <a href="#">
+            <img src="{{ site.avatar | relative_url }}" class="img-responsive" alt="logo">
+        </a>
+        <div class="nav-toggle"> <i class="fa fa-bars"></i> </div>
+        <div class="nav" >
+        {% for link in site.navbar %}
+            <a href="{{ link.url }}">{{ link.title }}</a>
+        {% endfor %}
+        </div>
+</header>

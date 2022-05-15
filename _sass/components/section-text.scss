@@ -1,0 +1,52 @@
+@import "mixins";
+
+.pretitle {
+    letter-spacing: 3px;
+    font-style: italic;
+    text-align: center;
+}
+
+.dash::before,
+.dash::after {
+    content: "";
+    display: inline-block;
+    width: 20px;
+    height: 1px;
+    border-bottom: 1px solid $black;
+    margin: 0 14px 4px;
+}
+
+.inv.pretitle::before,
+.inv.pretitle::after {
+    border-color: $white;
+}
+
+.accent.pretitle::before,
+.accent.pretitle::after {
+    border-color: $light-color;
+}
+
+.title {
+    text-align: center;
+    padding-bottom: 1rem;
+}
+
+.subtitle {
+    letter-spacing: 3px;
+    line-height: 2rem;
+    font-size: 1.15rem;
+    text-align: center;
+    margin: 0 14em;
+}
+
+@include tablet-landscape {
+    .subtitle {
+        margin: 0 2em;
+    }
+}
+
+@include phone {
+    .subtitle {
+        margin: 0.1em;
+    }
+}

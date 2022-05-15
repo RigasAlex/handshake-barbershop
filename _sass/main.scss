@@ -1,0 +1,136 @@
+$backgroundColor: #ffffff;
+$bodyColor: #000000;
+$bodyFont: -apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+
+$primary: #af8c45;
+
+/*
+    Base
+*/
+
+body {
+  background: $backgroundColor;
+  color: $bodyColor;
+  font-family: $bodyFont;
+  margin: 0;
+}
+
+html, body, div, span, h1, h2, h3, h4, h5, h6, p, a{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    text-decoration: none;
+    font-family: 'Poppins';
+    vertical-align: baseline;
+    // outline: none;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Poppins';
+}
+
+h1 {
+    font-size: calc(1rem + 3vw);
+}
+
+h2 {
+    font-size: calc(0.75rem + 3vw);
+}
+
+h3 {
+    font-size: calc(1rem + 1vw);
+}
+
+.accent {
+	color: #b59472;
+}
+
+.inv {
+	color: #ffffff;
+}
+
+.column {
+    flex: 1;
+	position: relative;
+    // min-height: 1px;
+    // padding-left: 8em;
+    // padding-right: 8em;
+}
+
+.voffset {
+    padding-bottom: 90px;
+}
+
+.container {
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+@media screen and (max-width: 980px) {
+    .column {
+        padding-left: 0;
+        padding-right: 0;
+    }
+}
+
+@media screen and (max-width: 680px) {
+    .column {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+	.container {
+		padding-left: 0;
+		padding-right: 0;
+	}
+	
+}
+
+/*
+    section-text
+*/ 
+
+#section-text {
+    padding: 8em 10em;
+}
+
+.pretitle {
+    letter-spacing: 3px;
+    font-style: italic;
+    text-align: center;
+}
+
+
+.dash::before,
+.dash::after {
+    content: "";
+    display: inline-block;
+    width: 20px;
+    height: 1px;
+    border-bottom: 1px solid #000000;
+    margin: 0 14px 4px;
+}
+
+.inv.pretitle::before,
+.inv.pretitle::after {
+    border-color: #ffffff;
+}
+
+.accent.pretitle::before,
+.accent.pretitle::after {
+    border-color: #b59472;
+}
+
+.title {
+    text-align: center;
+    // margin-top: 25px;
+    // margin-bottom: 25px;
+
+}
+
+.subtitle {
+    letter-spacing: 3px;
+    text-align: center;
+}

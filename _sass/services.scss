@@ -1,0 +1,104 @@
+.services {
+    margin-top: 3em;
+}
+.even-column {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2em;
+    margin: 0 4em 2em 4em;
+}
+
+.card {
+    position: relative;
+    background-color: white;
+    box-shadow: 2px 2px 8px 0px rgba(0, 0, 0, 0.25);
+    padding: 3em 2em;
+    flex: 1 1 14em;
+    border-radius: 2px;
+
+    h2 {
+        color: $light-color;
+    }
+}
+
+.services .more {
+    background-color: $light-color;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 1em 2em;
+    h2,
+    p {
+        text-align: center;
+        color: white;
+    }
+    p {
+        margin-bottom: 2em;
+    }
+    .button {
+        font-size: 0.85rem;
+        padding: 1em;
+        border-color: $white;
+    }
+}
+
+.services h2 {
+    margin: 1em 0;
+}
+
+.services p {
+    line-height: 1.9em;
+    margin-bottom: 1em;
+}
+
+.services img {
+    height: calc(3em + 1vw);
+}
+
+.services .price-tag {
+    position: absolute;
+    font-size: 1rem;
+    text-align: center;
+    border: $light-color solid 0.1em;
+    border: black solid 0.1em;
+    border-radius: 2px;
+    bottom: 1em;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    width: calc(100% - 3em);
+    align-self: flex-end;
+    // color: $white;
+    // background-color: $light-color;
+}
+
+@media (max-width: 1055px), (max-width: 735px) {
+    .services img {
+        position: absolute;
+        right: 13%;
+        top: 40%;
+    }
+
+    .services .disc {
+        width: 75%;
+    }
+}
+
+@media (max-width: 990px) and (min-width: 736px), (max-width: 510px) {
+    .services img {
+        position: relative;
+        right: auto;
+        top: auto;
+    }
+
+    .services .disc {
+        width: auto;
+    }
+}
+
+@include phone {
+    .services .even-column {
+        margin: 0 1em 2em 1em;
+    }
+}

@@ -1,0 +1,46 @@
+<div class="contact half-half">
+    <div class="column form-wraper">
+        <h1 class="title">Make an appointment</h1>
+
+        <div class="button-wraper">
+            <a href="tel:{{ site.phone }}" class="button">
+                <i class="fas fa-phone-alt"></i> Phone Call
+            </a>
+        </div>
+        
+        <div class="button-wraper">
+            <a href="{{ site.messenger }}" target="_blank" class="button">
+                <i class="fab fa-facebook-messenger"></i> Message
+            </a>
+        </div>
+
+        <div class="button-wraper">
+            <a href="{{ site.instagram }}" target="_blank" class="button">
+                <i class="fab fa-instagram"></i> Message
+            </a>
+        </div>
+    </div>
+    <div
+        class="column banner"
+        {%
+        if
+        include.photo
+        %}
+        style="background-image: url('{{ include.photo }}');"
+        {%
+        endif
+        %}
+    >
+        {% if include.map == true %}
+        <iframe
+            class="map"
+            src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12091.714488945421!2d24.5767899!3d40.7415961!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x7b432e8933008008!2sHandshake%20Barbershop!5e0!3m2!1sel!2sgr!4v1622038537922!5m2!1sel!2sgr"
+            width="100%"
+            height="100%"
+            style="border: 0"
+            allowfullscreen=""
+            loading="lazy"
+        ></iframe>
+        {% endif %}
+    </div>
+</div>

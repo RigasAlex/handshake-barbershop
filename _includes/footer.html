@@ -1,0 +1,42 @@
+<footer>
+    <div class="column">
+        <div class="more">
+            <a class="footer_title">Look for More</a>
+            <a href="#">About</a>
+            <a href="#">Pricing</a>
+            <a href="#">Gallery</a>
+            <a href="#">Contact</a>
+        </div>
+    </div>
+
+    <div class="column">
+        <div class="contact">
+            <a class="footer_title">Get in Touch</a>
+            <!-- <a href="#" >HandShake BarberShop</a> -->
+            <a href="tel:{{ site.phone }}"  title="Contact"
+                ><i class="fa fa-phone-alt"></i> Tel: +30 {{ site.phone }}</a
+            >
+            <a href="mailto:{{ site.email }}" title="Email"
+                ><i class="fa fa-envelope"></i> Email:
+                {{ site.email }}</a
+            >
+            <a
+                href="{{ site.address_link }}"
+                target="_blank" 
+                title="Address"
+            >
+                <i class="fa fa-map-marker-alt"></i> {{ site.address }}</a
+            >
+        </div>
+    </div>
+
+    <div class="column">
+        <img
+            src="{{ site.logo_128x | relative_url }}"
+            alt="logo"
+        />
+    </div>
+</footer>
+<div class="sub-footer">
+    © CopyRights 2021 HandShake Barbershop || All rights reserved
+</div>
