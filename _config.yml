@@ -4,7 +4,7 @@ baseurl: "" # the subpath of your site, e.g. /blog
 title: Handshake Brbershop # the name of your site, e.g. ACME Corp.
 tagline: Barbershop at Prinos Thassos
 description: Handshake Barbershop located at Prinos of Thassos. We are open since 2020 and we offer old school but modern haircuts.
-url: "https://handshakebshop.netlify.app"
+url: "https://handshakebarber.shop"
 author: Alex Rigas
 
 # --- Header Nav-Bar --- #
