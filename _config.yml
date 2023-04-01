@@ -21,14 +21,12 @@ navbar:
     url: "#"
 
 # --- Logo --- #
-avatar: "/assets/img/logo/avatar-handshake-white.png"
-fabicon: "/assets/img/logo/avatar-handshake-black.png
+avatar: "/assets/img/logo/avatar-64.webp"
+fabicon: "/assets/img/logo/avatar-32.webp
 "
 
-logo: "/assets/img/logo/logo.png"
-logo_128x: "/assets/img/logo/logo_128x.png"
-
 # --- Footer  --- #
+footer-img: "/assets/img/handshake_08.webp"
 
 # --- info --- #
 facebook: https://www.facebook.com/profile.php?id=100028473175442
@@ -43,7 +41,7 @@ working_hours:
   hours:
     - 09:00 - 15:00
     - 17:00 - 21:00
-  img: assets/img/slider-home/inside_store.jpg
+  img: assets/img/handshake_07.webp
 
 brands:
   - name: Reuzel

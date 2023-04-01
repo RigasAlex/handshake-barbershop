@@ -3,7 +3,10 @@ layout: home
 title: HandShake BarberShop
 slide:
     images:
-        - url: assets/img/slider-home/inside_store.jpg
+        - url: assets/img/handshake_04.webp
+        - url: assets/img/handshake_06.webp
+        - url: assets/img/handshake_02.webp
+    caption: assets/img/handshake_08.webp
 
 intro:
     pretitle: Introducing
@@ -11,7 +14,7 @@ intro:
     text: Lorem ipsum dolor, sit amet consectetur adipisicing elit. Mollitia vitae veniam eius accusantium dolores provident.
 
 about:
-    img: assets/img/handshake_02.jpg
+    img: assets/img/handshake_06.webp
     pretitle: since 2020
     title: About Us
     prelusion: Driven by our philosophy of delivering quality and consistency in laid back surrounding to make effortless style, we aim to creat in hair a refreshing take on the past while anticipating the new.
@@ -39,5 +42,5 @@ services:
 appointment:
   title:  Change Your Style 
   desc:  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-  img: assets/img/handshake_03.jpg
+  img: assets/img/handshake_05.webp
 ---

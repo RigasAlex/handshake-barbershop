@@ -6,8 +6,8 @@
         <div
             class="swiper-slide"
             style="background-image:
-          linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.6)),
-          url( {{ image.url }} );"
+                linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.6)),
+                url( {{ image.url }} );"
         ></div>
         {% endfor %}
     </div>
@@ -15,8 +15,8 @@
     <!-- Slide captions -->
     <div class="slide-caption">
         <img
-            src="{{ site.logo | relative_url }}"
-            class="img-responsive"
+            src="{{ include.slide.caption | relative_url }}"
+            class="img-responsive caption-img"
             alt="logo"
         />
     </div>

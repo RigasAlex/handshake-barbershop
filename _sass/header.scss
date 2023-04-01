@@ -81,11 +81,15 @@
 
 #primary-header img {
     position: absolute;
-    max-width: 100px;
+    width: 64px;
     margin-left: 3em;
     top: 50%;
     transform: translate(0, -50%);
     transition: all 400ms linear;
+}
+
+#primary-header.header-scroled img {
+    width: 48px;
 }
 
 #primary-header .nav-toggle {
