@@ -23,5 +23,5 @@ permalink: manifest.json
     }
   ],
   "prefer_related_applications": false,
-  "start_url": "/"
+  "start_url": "{{site.url}}"
 }
