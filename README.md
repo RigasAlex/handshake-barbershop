@@ -1,6 +1,6 @@
 <div align="center">
   <a href="https://handshake-barbershop.netlify.app/">
-    <img src="https://handshake-barbershop.netlify.app/assets/img/logo/logo.png" alt="Logo" height="80">
+    <img src="./images/logo.webp" alt="Logo" height="80">
   </a>
 
   <h3 align="center">HandShake BarberShop</h3>
