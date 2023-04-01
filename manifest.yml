@@ -20,5 +20,6 @@ permalink: manifest.json
       "type": "image/png"
     }
   ],
-  "prefer_related_applications": false
+  "prefer_related_applications": false,
+  "start_url": "/"
 }
