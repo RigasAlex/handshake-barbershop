@@ -33,6 +33,10 @@ section {
     }
 }
 
+h1 {
+    display: none;
+}
+
 .title {
     // font-family: cambria;
     font-size: clamp(1.75rem, 4.51vw, 3.25rem);
