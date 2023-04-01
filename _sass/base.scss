@@ -94,6 +94,15 @@ a.icon img {
     width: 32px;
 }
 
+a.icon--small img {
+    height: 16px;
+    width: 16px;
+}
+
+.margin-right {
+    margin-right: 1em;
+}
+
 img.icon {
     aspect-ratio: 1/1;
     height: 32px;
