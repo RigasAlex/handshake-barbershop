@@ -16,7 +16,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-![Handshake BarberShop](https://handshake-barbershop.netlify.app/assets/img/page/home-short.png)
+![Handshake BarberShop](./images/screenshot-01.png)
 
 ### Built With
 
