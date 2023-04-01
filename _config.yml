@@ -12,13 +12,13 @@ navbar:
   - title: "Home"
     url: "#"
   - title: "About"
-    url: "#"
+    url: "#about"
   - title: "Pricing"
-    url: "#"
-  - title: "Gallery"
-    url: "#"
+    url: "#pricing"
+  - title: "Availability"
+    url: "#availability"
   - title: "Contact"
-    url: "#"
+    url: "#contact"
 
 # --- Logo --- #
 avatar: "/assets/img/logo/avatar-64.webp"

@@ -1,5 +1,9 @@
 @import "mixins";
 
+html, body {
+    scroll-behavior: smooth;
+}
+
 body {
     font-family: $first-font;
     margin: 0;
@@ -67,4 +71,12 @@ p {
 .column {
     flex: 1;
     position: relative;
+}
+
+.anchor::before {
+    content: "";
+    display: block;
+    height: 80px;
+    margin-top: -80px;
+    visibility: hidden;
 }
