@@ -22,8 +22,8 @@ navbar:
 
 # --- Logo --- #
 avatar: "/assets/img/logo/avatar-64.webp"
-fabicon: "/assets/img/logo/avatar-32.webp
-"
+fabicon: "/assets/img/logo/avatar-32.webp"
+apple-touch-icon: "/assets/img/logo/apple-icon.webp"
 
 # --- Footer  --- #
 footer-img: "/assets/img/handshake_08.webp"
