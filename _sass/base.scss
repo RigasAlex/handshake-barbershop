@@ -80,3 +80,14 @@ p {
     margin-top: -80px;
     visibility: hidden;
 }
+
+a.icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+a.icon img {
+    height: 32px;
+    width: 32px;
+}
