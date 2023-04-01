@@ -37,7 +37,8 @@ email: handshakebshopths@gmail.com
 address_link: https://www.google.com/maps/place/Handshake+Barbershop/@40.7415667,24.5767752,21z/data=!4m12!1m6!3m5!1s0x0:0x7b432e8933008008!2sHandshake+Barbershop!8m2!3d40.7415961!4d24.5767899!3m4!1s0x0:0x7b432e8933008008!8m2!3d40.7415961!4d24.5767899
 address: Prinos, Thassos - 64010
 working_hours:
-  days:  Tuesday - Saturday 
+  days:  Monday - Saturday
+  days-close: Sunday 
   hours:
     - 09:00 - 15:00
     - 17:00 - 21:00

@@ -6,12 +6,17 @@
 >
     <div class="caption">
         <h2 class="title">Working Hours</h2>
-        <h3>
-            {{ site.working_hours.day }} 
+        <h3 class="margin">
+            {{ site.working_hours.days }}:
             {% for hour in site.working_hours.hours %}
             <br />
             {{ hour }}
             {% endfor %}
+            <br/>
+            {% for day in site.working_hours.days-close %}
+            {{day}}: Closed
+            {% endfor %}
         </h3>
     </div>
+
 </div>
