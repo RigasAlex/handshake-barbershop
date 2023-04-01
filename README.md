@@ -1,5 +1,5 @@
 <div align="center">
-  <a href="https://handshake-barbershop.netlify.app/">
+  <a href="https://handshakebarber.shop/">
     <img src="./images/logo.webp" alt="Logo" height="80">
   </a>
 
@@ -9,7 +9,7 @@
     A simple landing page for HandShake BarberShop.
     <br />
     <br />
-    <a href="https://handshake-barbershop.netlify.app/">View Demo</a>
+    <a href="https://handshakebarber.shop/">View Demo</a>
   </p>
 </div>
 
