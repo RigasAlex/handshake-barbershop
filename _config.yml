@@ -56,3 +56,9 @@ brands:
 plugins:
   - jekyll-seo-tag
   - jekyll-sitemap
+
+manifest_name: Handshake Barbershop
+manifest_short_name: Handshake
+manifest_lang: en
+manifest_background_color: white
+manifest_display: standalone
