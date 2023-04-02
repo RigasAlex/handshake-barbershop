@@ -17,7 +17,8 @@ about:
     img: assets/img/handshake_06.webp
     pretitle: since 2020
     title: About Us
-    prelusion: Driven by our philosophy of delivering quality and consistency in laid back surrounding to make effortless style, we aim to creat in hair a refreshing take on the past while anticipating the new. We are a team of passionate barbers who are dedicated to providing the best service to our clients. We are committed to providing a unique experience for each and every client.
+    prelusion: "<b>Located at Skala Prinos Thassou,</b> HandShake BarberShop is a place where you can get a haircut, shave, or beard trim. 
+    Driven by our philosophy of delivering quality and consistency in laid back surrounding to make effortless style, we aim to creat in hair a refreshing take on the past while anticipating the new. We are dedicated to providing the best service to our clients. We are committed to providing a unique experience for each and every client."
     text: A man only old school barbershop. offers men the possibility to have an experience that is not just a classic haircut or a shave, but the old school atmosphere
 
 services:
