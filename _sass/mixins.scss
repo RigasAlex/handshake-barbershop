@@ -10,6 +10,7 @@ $second-font: 'Poppins';
 @font-face {
     font-family: "Poppins";
     src: url("/assets/fonts/Poppins-Regular.woff");
+    font-display: swap;
 }
 
 @mixin phone {
