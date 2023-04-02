@@ -27,7 +27,7 @@ services:
         - title: Haircut
           icon: assets/img/icons/scissors.png
           desc: Sharp and stylish, our barber can give you a whole new look. Whether bold and futuristic, or minimal and dapper, we have just the slice for you
-          price: 10
+          price: 12
         - title: Trim
           icon: assets/img/icons/razor.png
           desc: Who doesn't love a good beard? Tame the beast and let us primp your beard to perfection. From simple trims to innovative styles, this one is truly for fellas.
