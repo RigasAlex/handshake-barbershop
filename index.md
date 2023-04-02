@@ -10,7 +10,7 @@ slide:
 
 intro:
     pretitle: Introducing
-    title: Classic Never Goes Out Of Style
+    title: Tradition is the foundation of innovation.
     text: Keep the old school spirit alive.
 
 about:
@@ -38,10 +38,10 @@ services:
           price: 5
     more:
       title: Looking for a Haircut?
-      desc: Our shop works with appointments & walk-ins!
+      desc: Our shop accommodates both scheduled appointments and walk-in customers.
   
 appointment:
-  title:  Change Your Style 
+  title:  Find your style, own it confidently. 
   desc: Sit down, relax, and let us take care of you.
   img: assets/img/handshake_05.webp
 ---
