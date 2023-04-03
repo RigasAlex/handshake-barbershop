@@ -1,6 +1,6 @@
 <div align="center">
   <a href="https://handshakebarber.shop/">
-    <img src="./images/logo.webp" alt="Logo" height="80">
+    <img src="./images/logo-vintage.webp" alt="Logo" height="80">
   </a>
 
   <h3 align="center">HandShake BarberShop</h3>
