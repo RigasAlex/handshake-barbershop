@@ -62,12 +62,24 @@
             </section>
         </div>
 
+        <section class="anchor section--2x" id="gallery">
+            {%- include section-text.html
+                title = page.gallery.title
+                text = page.gallery.desc
+            -%}
+        </section>
+
+        {%- include gallery-preview.html -%}
+
         <section class="section--2x">
             {%- include section-text.html
                 title = page.appointment.title
                 text = page.appointment.desc
             -%}
         </section>
+
+
+        
             
         <div class="anchor" id="contact">
             {%- include contact.html

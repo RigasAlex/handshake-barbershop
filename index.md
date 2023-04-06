@@ -40,6 +40,10 @@ services:
       title: Looking for a Haircut?
       desc: Our shop accommodates both scheduled appointments and walk-in customers.
   
+gallery:
+  title: Gallery
+  desc: Gallery of our work
+
 appointment:
   title:  Find your style, own it confidently. 
   desc: Sit down, relax, and let us take care of you.

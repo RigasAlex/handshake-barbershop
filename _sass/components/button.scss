@@ -10,8 +10,9 @@
     border-radius: .2em;
     padding: .8em 2em;
     transition: all .5s ease-out;
-    &:hover, &:focus {
+    &:hover{
         color: $black;
         background-color: $white;
+        cursor: pointer;
     }
 }

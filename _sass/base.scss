@@ -107,3 +107,16 @@ img.icon {
     aspect-ratio: 1/1;
     height: 32px;
 }
+
+.horizontal-center {
+    display: flex;
+    justify-content: center;
+}
+
+.margin-top-1x {
+    margin-top: 16px;
+}
+
+.margin-top-2x {
+    margin-top: 32px;
+}
