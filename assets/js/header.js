@@ -1,13 +1,18 @@
-document.addEventListener('DOMContentLoaded', function(){
+document.addEventListener('DOMContentLoaded', function() {
+
   let header = document.getElementById("primary-header");
+  fixed = (header.getAttribute("fixed") == "true")
   let sticky = header.offsetTop;
+  if (fixed) {
+    header.classList.add("header-scroled");
+  }
 
   myFunction();
   window.onscroll = function() {myFunction()};
   function myFunction() {
     if (window.pageYOffset > sticky) {
       header.classList.add("header-scroled");
-    } else {
+    } else if (!fixed) {
       header.classList.remove("header-scroled");
     }
   }

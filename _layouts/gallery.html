@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="{{ site.lang | default: "en-US" }}">
+
+    {%- include head.html -%}
+    <body>
+        {%- include header.html          
+            fixed = true    
+        -%}
+
+        <div class="relative">
+            <img class="top-image" src="assets/img/handshake_09.jpg" alt="-" >
+            <h2 class="caption">Gallery</h2>
+        </div>
+
+
+        <section class="section--2x">
+            {%- include section-text.html
+                title = page.title
+                text = page.pretitle
+            -%}
+        </section>
+
+        <section>
+            <div class="gallery-preview">
+                {% for image in site.static_files %}
+                {% if image.path contains 'img/gallery' %}
+                <div class="gallery-preview__image__wrapper">
+                    <img  class="gallery-preview__image" src="{{ site.baseurl }}{{ image.path }}" alt="-" />
+                    <img src="assets/img/icons/zoom.png" class="icon--top-image">
+                    <div class="overlay"></div>
+                </div>
+                {% endif %}
+                {% endfor %}
+            </div>
+        </section>
+
+        <div class="margin-top-4x"></div>
+
+        {%- include footer.html -%}
+    </body>
+</html>

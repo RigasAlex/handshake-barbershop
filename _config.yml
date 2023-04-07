@@ -17,6 +17,8 @@ navbar:
     url: "#pricing"
   - title: "Availability"
     url: "#availability"
+  - title: "Gallery"
+    url: "gallery"
   - title: "Contact"
     url: "#contact"
 
@@ -27,6 +29,11 @@ apple-touch-icon: "/assets/img/logo/apple-icon.webp"
 
 # --- Footer  --- #
 footer-img: "/assets/img/handshake_08.webp"
+look-for-more:
+  - title: "Home"
+    url: ""
+  - title: "Gallery"
+    url: "gallery" 
 
 # --- info --- #
 facebook: https://www.facebook.com/profile.php?id=100028473175442

@@ -1,11 +1,11 @@
-<header id="primary-header" class="">
-        <a href="#"  aria-label="home">
+<header id="primary-header" class="" fixed="{{include.fixed}}">
+        <a href="/"  aria-label="home">
             <img src="{{ site.avatar | relative_url }}" class="img-responsive" alt="">
         </a>
         <div class="nav-toggle"> <i class="fa fa-bars"></i> </div>
         <div class="nav" >
         {% for link in site.navbar %}
-            <a href="{{ link.url }}">{{ link.title }}</a>
+            <a href="/{{ link.url }}">{{ link.title }}</a>
         {% endfor %}
         </div>
 </header>
