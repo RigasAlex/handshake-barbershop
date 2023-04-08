@@ -23,13 +23,13 @@
         <section>
             <div class="gallery-preview">
                 {% for image in site.static_files %}
-                {% if image.path contains 'img/gallery' %}
-                <div class="gallery-preview__image__wrapper">
-                    <img  class="gallery-preview__image" src="{{ site.baseurl }}{{ image.path }}" alt="-" />
-                    <img src="assets/img/icons/zoom.png" class="icon--top-image">
-                    <div class="overlay"></div>
-                </div>
-                {% endif %}
+                    {% if image.path contains 'img/gallery' %}
+                        <div class="gallery-preview__image__wrapper">
+                            <img  class="gallery-preview__image" src="{{ site.baseurl }}{{ image.path }}" alt="-" />
+                            <img src="assets/img/icons/zoom.png" class="icon--top-image" alt="zoom">
+                            <div class="overlay"></div>
+                        </div>
+                    {% endif %}
                 {% endfor %}
             </div>
         </section>
