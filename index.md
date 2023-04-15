@@ -11,7 +11,7 @@ slide:
 intro:
     pretitle: Introducing
     title: Tradition is the foundation of innovation.
-    text: Keep the old school spirit alive.
+    text: Respecting our roots, we grow into a modern legacy.
 
 about:
     img: assets/img/handshake_06.webp
