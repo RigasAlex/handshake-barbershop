@@ -39,7 +39,7 @@ document.addEventListener('DOMContentLoaded', function() {
   //Invoke auto slide
   slidesEl.children[lastIndex].classList.add("prev-slide");
   slidesEl.children[0].classList.add("active-slide");
-  autoSlide();
+  setTimeout(autoSlide, TRANSICTION_TIME);
 
   function resetTimeout() {
     clearTimeout(timeout);
