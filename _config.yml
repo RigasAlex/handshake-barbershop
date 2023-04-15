@@ -31,7 +31,7 @@ apple-touch-icon: "/assets/img/logo/apple-icon.webp"
 footer-img: "/assets/img/handshake_08.webp"
 look-for-more:
   - title: "Home"
-    url: ""
+    url: "#"
   - title: "Gallery"
     url: "gallery" 
 
