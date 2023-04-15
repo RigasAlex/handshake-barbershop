@@ -4,7 +4,7 @@
     Needs Refactoring
 */
 
-#primary-header .fa {
+#primary-header .bars {
     display:inline-block;
     color: $white;   
     text-align: center;
@@ -33,7 +33,7 @@
     transition: 0.7s transform cubic-bezier(0.06, 0.9, 0.28, 1);
 }
 
-#primary-header.header-scroled img {
+#primary-header.header-scroled .header__avatar {
     max-width: 85px;
 }
 
@@ -79,7 +79,7 @@
     position: relative;
 }
 
-#primary-header img {
+#primary-header .header__avatar {
     position: absolute;
     width: 64px;
     margin-left: 3em;
@@ -88,7 +88,7 @@
     transition: all 400ms linear;
 }
 
-#primary-header.header-scroled img {
+#primary-header.header-scroled .header__avatar {
     width: 48px;
 }
 
@@ -96,21 +96,16 @@
     display: none;
 }
 
-@media screen and (max-width: 680px) {
-    #primary-header .nav-toggle {
-        display: block!important;
-    }
-}
 
 @media screen and (max-width: 980px) {
     #primary-header .nav.show {
         display: block;
     }
-
+    
     #primary-header {
         background: $black;
     }
-
+    
     #primary-header .nav-toggle {
         display: block;
         float: right;
@@ -120,11 +115,11 @@
         border-radius: 4px;
         padding: 0.2em 0 0.2em 0;
     }
-
+    
     #primary-header .nav-toggle:hover {
         cursor: pointer;
     }
-
+    
     #primary-header .nav {
         float: none;
         max-width: 800px;
@@ -140,25 +135,34 @@
         border-top: 3px solid $white;
         display: none;
     }
-
+    
     #primary-header.header-scroled .nav {
         margin-top: 3em!important;
     }
-
+    
     #primary-header .nav a {
         background-color: $black;
         display: block;
         padding: 12px;
         text-decoration: none;
     }
-
+    
     #primary-header .nav a::after {
         opacity: 0;
     }
-
-
-    #primary-header img {
+    
+    
+    #primary-header .header__avatar {
         display: none;
         max-width: 80px;
+    }
+}
+@media screen and (max-width: 680px) {
+    #primary-header .nav-toggle {
+        display: block!important;
+    }
+    #primary-header .nav {
+        margin-right: 2em;
+        margin-left: 2em;
     }
 }

@@ -1,8 +1,8 @@
 <header id="primary-header" class="" fixed="{{include.fixed}}">
         <a href="/"  aria-label="home">
-            <img src="{{ site.avatar | relative_url }}" class="img-responsive" alt="">
+            <img src="{{ site.avatar | relative_url }}" class="img-responsive header__avatar" alt="-">
         </a>
-        <div class="nav-toggle"> <i class="fa fa-bars"></i> </div>
+        <div class="nav-toggle"> <img class="icon bars" src="/assets/img/icons/menu.png" alt="menu"> </div>
         <div class="nav" >
         {% for link in site.navbar %}
             <a href="/{{ link.url }}">{{ link.title }}</a>
